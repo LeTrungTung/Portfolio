@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Tung</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b>LE TRUNG TUNG</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificate">Certificate</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Tung</h2>
+                <p class="hero_desc">I am a developer website</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/myimg.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> 
+                        My name is Le Trung Tung, I am a civil engineer before transitioning to the IT field.
+                        <br>
+                        I have completed Fullstack programming certification with languages: HTML, CSS, Javascript, Typescript; Supporting libraries and tools: React, Express, NestJS, MySQL, TypeORM.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <div class="info-grid">
+                                <div class="info-item">Name:</div>
+                                <div class="info-item"><b>Le Trung Tung</b></div>
+                                <div class="info-item">Age:</div>
+                                <div class="info-item"><b>39</b></div>
+                                <div class="info-item">Phone:</div>
+                                <div class="info-item"><b>0905 005 084</b></div>
+                                <div class="info-item">Email:</div>
+                                <div class="info-item"><b>trungtung5484@gmail.com</b></div>
+                                <div class="info-item">Address:</div>
+                                <div class="info-item"><b>Cam Le, Da Nang, Viet Nam</b></div>
+                                <div class="info-item">Occupation:</div>
+                                <div class="info-item"><b>Web Developer</b></div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> 
+                            Short-term goal of becoming a programmer engineer with proficient skills.
+                            <br>
+                            Long-term goal of becoming a senior leader and key member of the company.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- education section-->
+    <section id="education">
+        <div class="container">
+            <h1 class="text-center mt-4">Education</h1>
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="card educationText">
+                        <div class="card-body">
+                            <img id='rikkei' src="./images/logo rikkei.jpg" alt="rikkei academy">
+                            <h4 class="card-title mt-3">Da Nang Rikkei Academy</h4>
+                            <p class="card-text mt-3">
+                                Fullstack Programmer with Javascript, Typescript. Learning full-time from March to October 2023.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="card educationText">
+                        <div class="card-body">
+                            <img id='university' src="./images/university.png" alt="university">
+                            <h4 class="card-title mt-3">Da Nang University of Science and Technology</h4>
+                            <p class="card-text mt-3">
+                                Civil and industrial construction engineer from 2002 to 2007.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h1 class="text-center mt-4">Experience</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-experience">
+                            <!-- <i class="fas servicesIcon fa-js"></i> -->
+                            <i class="servicesIcon fa-brands fa-js"></i>
+                            <h4 class="card-title mt-3">HTML, CSS, JS</h4>
+                            <p class="card-text mt-3">
+                                Create an e-commerce website selling plants to introduce, promote the brand, and increase sales revenue for the business.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-experience">
+                            <!-- <i class='fas servicesIcon fa-layer-group'></i> -->
+                            <span class="framework">
+                                <i class="frameIcon fa-brands fa-react"></i>
+                                <i class="frameIcon fa-brands fa-node"></i>
+                            </span>
+                            <h4 class="card-title mt-3">REACT, EXPRESS/NESTJS, MYSQL/TYPEORM</h4>
+                            <p class="card-text mt-3">
+                                Create a social networking website consisting of a collection of images on various topics.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-experience">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">REACT, NESTJS: WORK WITH A TEAM </h4>
+                            <p class="card-text mt-3">
+                                Create a shopping center warehouse management website.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Projects section-->
+    <section id="projects">
+        <div class="container mt-4">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectText">
+                        <img class="card-img-top" src="images/treewebsite.jpg" alt="Card image" style="width:100%">
+                        <div class="card-project">
+                            <h4 class="card-title">Tree Business Website</h4>
+                            <p>Create an e-commerce website selling plants to introduce, promote the brand, and increase sales revenue for the business.</p>
+                            <p>Duration: 10 days</p>
+                            <p>Number of members: 01</p>
+                            <p>Resonsibilities: Design the entire project independently</p>
+                            <p class="card-text">Technologies: HTML, CSS, JS.</p>
+                            <div class="link">
+                                <a href="https://github.com/LeTrungTung/TreeWeb-Project-TUNGLT.git" class="btn btn-success" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectText">
+                        <img class="card-img-top" src="images/picture for life.jpg" alt="Card image" style="width:100%">
+                        <div class="card-project">
+                            <h4 class="card-title">Picture For Life</h4>
+                            <p>Create a social networking website consisting of a collection of images on various topics.</p>
+                            <p>Duration: 15 days</p>
+                            <p>Number of members: 01</p>
+                            <p>Resonsibilities: Design the entire project independently</p>
+                            <p class="card-text">Technologies: REACT, NESTJS.</p>
+                            <div class="link">
+                                <a href="https://github.com/LeTrungTung/ProjectV-NestJS-Pinterest-V1.git" class="btn btn-success" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card projectText">
+                        <img class="card-img-top" src="images/mall warehouse.jpg" alt="Card image" style="width:100%">
+                        <div class="card-project">
+                            <h4 class="card-title">Mall Warehouse Management</h4>
+                            <p>Create a website to manage mall warehouse includes: item, member, stock</p>
+                            <p>Duration: 20 days</p>
+                            <p>Number of members: 08</p>
+                            <p>Resonsibilities: Create some entities, create member editing API, create member editing screen interface. </p>
+                            <p class="card-text">Technologies: REACT, NESTJS.</p>
+                            <div class="link">
+                                <a href="https://github.com/LeTrungTung/TreeWeb-Project-TUNGLT.git" class="btn btn-success" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:400px;height:400px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.8712471178105!2d108.19286685372974!3d16.01144185853068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421a2d9839e2e9%3A0xbb4a1a5cf5fc30db!2zNTIzIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgSMOyYSBUaOG7jSDEkMO0bmcsIEPhuqltIEzhu4csIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1697561661831!5m2!1sen!2sus">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.8712471178105!2d108.19286685372974!3d16.01144185853068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421a2d9839e2e9%3A0xbb4a1a5cf5fc30db!2zNTIzIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgSMOyYSBUaOG7jSDEkMO0bmcsIEPhuqltIEzhu4csIMSQw6AgTuG6tW5nIDU1MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1697561661831!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control mt-1" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/letrung.tung" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/le-trung-tung-871210297/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/LeTrungTung" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
