@@ -33,7 +33,6 @@ body {
     position: absolute;
     top: 30%;
     left: 300px;
-    /* max-width: 20%; */
     transform: translate(-50%, -50%);
     color: lightyellow;
 }
@@ -79,7 +78,6 @@ body {
     border: 2px solid #000;
     transform: scale(1.1);
 }
-
 .servicesText.card {
     cursor: pointer;
     border: none;
@@ -170,7 +168,6 @@ body {
     height: 250px;
     overflow: auto;
     position: relative;
-
 }
 .card-project p{
     margin-bottom: 5px;
