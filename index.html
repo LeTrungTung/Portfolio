@@ -23,7 +23,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto" id="navbar">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -52,7 +52,7 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Tung</h2>
+                <h3 class="hero_title">Hi, it's me Tung</h3>
                 <p class="hero_desc">I am a developer website</p>
             </div>
             </div>
@@ -88,7 +88,7 @@
                                 <div class="info-item">Address:</div>
                                 <div class="info-item"><b>Cam Le, Da Nang, Viet Nam</b></div>
                                 <div class="info-item">Occupation:</div>
-                                <div class="info-item"><b>Web Developer</b></div>
+                                <div class="info-item"><b>Junior Web Developer</b></div>
                             </div>                            
                         </div>
                     </div>
@@ -141,7 +141,6 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-experience">
-                            <!-- <i class="fas servicesIcon fa-js"></i> -->
                             <i class="servicesIcon fa-brands fa-js"></i>
                             <h4 class="card-title mt-3">HTML, CSS, JS</h4>
                             <p class="card-text mt-3">
@@ -153,7 +152,6 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-experience">
-                            <!-- <i class='fas servicesIcon fa-layer-group'></i> -->
                             <span class="framework">
                                 <i class="frameIcon fa-brands fa-react"></i>
                                 <i class="frameIcon fa-brands fa-node"></i>
@@ -191,12 +189,14 @@
                     <div class="card projectText">
                         <img class="card-img-top" src="images/treewebsite.jpg" alt="Card image" style="width:100%">
                         <div class="card-project">
-                            <h4 class="card-title">Tree Business Website</h4>
-                            <p>Create an e-commerce website selling plants to introduce, promote the brand, and increase sales revenue for the business.</p>
-                            <p>Duration: 10 days</p>
-                            <p>Number of members: 01</p>
-                            <p>Resonsibilities: Design the entire project independently</p>
-                            <p class="card-text">Technologies: HTML, CSS, JS.</p>
+                            <div class="content-project">
+                                <h4 class="card-title">Tree Business Website</h4>
+                                <p>Create an e-commerce website selling plants to introduce, promote the brand, and increase sales revenue for the business.</p>
+                                <p>Duration: 10 days</p>
+                                <p>Number of members: 01</p>
+                                <p>Resonsibilities: Design the entire project independently</p>
+                                <p class="card-text">Technologies: HTML, CSS, JS.</p>
+                            </div>
                             <div class="link">
                                 <a href="https://github.com/LeTrungTung/TreeWeb-Project-TUNGLT.git" class="btn btn-success" target="_blank">Link Github</a>
                             </div>
@@ -208,12 +208,14 @@
                     <div class="card projectText">
                         <img class="card-img-top" src="images/picture for life.jpg" alt="Card image" style="width:100%">
                         <div class="card-project">
-                            <h4 class="card-title">Picture For Life</h4>
-                            <p>Create a social networking website consisting of a collection of images on various topics.</p>
-                            <p>Duration: 15 days</p>
-                            <p>Number of members: 01</p>
-                            <p>Resonsibilities: Design the entire project independently</p>
-                            <p class="card-text">Technologies: REACT, NESTJS.</p>
+                            <div class="content-project">
+                               <h4 class="card-title">Picture For Life</h4>
+                               <p>Create a social networking website consisting of a collection of images on various topics.</p>
+                               <p>Duration: 15 days</p>
+                               <p>Number of members: 01</p>
+                               <p>Resonsibilities: Design the entire project independently</p>
+                               <p class="card-text">Technologies: REACT, NESTJS.</p>
+                           </div>
                             <div class="link">
                                 <a href="https://github.com/LeTrungTung/ProjectV-NestJS-Pinterest-V1.git" class="btn btn-success" target="_blank">Link Github</a>
                             </div>
@@ -225,18 +227,47 @@
                     <div class="card projectText">
                         <img class="card-img-top" src="images/mall warehouse.jpg" alt="Card image" style="width:100%">
                         <div class="card-project">
-                            <h4 class="card-title">Mall Warehouse Management</h4>
-                            <p>Create a website to manage mall warehouse includes: item, member, stock</p>
-                            <p>Duration: 20 days</p>
-                            <p>Number of members: 08</p>
-                            <p>Resonsibilities: Create some entities, create member editing API, create member editing screen interface. </p>
-                            <p class="card-text">Technologies: REACT, NESTJS.</p>
+                            <div class="content-project">
+                                <h4 class="card-title">Mall Warehouse Management</h4>
+                                <p>Create a website to manage mall warehouse includes: item, member, stock</p>
+                                <p>Duration: 20 days</p>
+                                <p>Number of members: 08</p>
+                                <p>Resonsibilities: Create some entities, create member editing API, create member editing screen interface. </p>
+                                <p class="card-text">Technologies: REACT, NESTJS.</p>
+                            </div>
                             <div class="link">
                                 <a href="https://github.com/LeTrungTung/TreeWeb-Project-TUNGLT.git" class="btn btn-success" target="_blank">Link Github</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <br>
+    </section>
+
+    <!-- Certificate section-->
+    <section id="certificate">
+        <div class="container mt-4">
+            <h1 class="text-center">Certificate</h1>
+            <div class="row certificates">
+                <div class="col-lg-2 mt-4">
+                    <div class="img-certificate">
+                        <img src="images/university.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="img-certificate">
+                        <img src="images/guidance.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="img-certificate">
+                        <img src="images/high woking spirit.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+
             </div>
             <br>
     </section>
